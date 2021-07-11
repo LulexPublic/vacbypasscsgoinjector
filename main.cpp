@@ -50,7 +50,7 @@ int main()
 {
 	SetConsoleTitle("Injector");
 	
-	cout << "Credits:\n Daniel Krupinski\n online-9\n Hitchance\n\n" << endl;
+	cout << "LulexInjector: WORKING" << endl;
 
 	inj.hwndproc = FindWindowA(0, "Counter-Strike: Global Offensive"); // checking for window csgo
 
